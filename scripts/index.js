@@ -18,7 +18,6 @@ function createListItem(address) {
     item.textContent = address
     li.appendChild(item)
     ul.appendChild(li)
-
 }
 
 addresses.forEach(createListItem)
@@ -26,7 +25,6 @@ addresses.forEach(createListItem)
 for (let index = 0; index < addresses.length; index++) {
     const element = addresses[index];
     createListItem(element)
-    
 }
 
 for (let address of addresses){
