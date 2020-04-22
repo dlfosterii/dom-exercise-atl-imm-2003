@@ -22,5 +22,16 @@ function createListItem(address) {
 }
 
 addresses.forEach(createListItem)
+
+for (let index = 0; index < addresses.length; index++) {
+    const element = addresses[index];
+    createListItem(element)
+    
+}
+
+for (let address of addresses){
+    createListItem(address)
+}
+
 linkContainer.appendChild(ul)
 
